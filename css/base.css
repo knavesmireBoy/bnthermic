@@ -149,7 +149,7 @@ table.control { line-height: 120%; text-align: left; width: 420px; float: left; 
 #page_products  a:hover, #content a:active { color: #c00; }
 
 #intro { line-height: 1.5; text-align: left; position: relative; width: 360px; float: left; 
-margin-left: 215px;
+
 margin-bottom: -200px; 
 padding: 20px 36px 440px 50px; display: inline; 
 }
