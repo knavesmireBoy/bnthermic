@@ -2,7 +2,7 @@ a { text-decoration: underline; }
 #instructions { text-align: center; position: relative; width: 700px; float: none; margin: 1em auto; border: solid 1px #b3b3b3; }
 #instructions ul { line-height: 1.1; text-align: left; margin-bottom: 1em; padding-left: 2em; }
 #instructions ul li { background-image: url(../images/dbl.gif); }
-.copy { padding: 0 12px 1em; }
+.copy { padding: 1em; }
 #instructions .copy p { text-align: left; margin-bottom: 0.5em; }
 #instructions h3 { color: #039; text-align: left; }
 #instructions h4 { color: #cc0000; text-align: left; margin-top: 0.5em; }
@@ -11,7 +11,7 @@ a { text-decoration: underline; }
 #instructions p em, #instructions p strong { font-weight: bold; }
 #instructions p#prodcode { font-size: 90%; position: absolute; top: 2px; right: 2px; z-index: 2; padding: 1px; border: solid 1px gray; }
 .clear, .split { clear: both; }
-#instructions h1 { position: absolute; top: 0; right: 0; width: 233px; z-index: 1; margin-bottom: 1em; }
+#instructions h1 {  width: 233px; z-index: 1; padding: 1em 0; height: 150px; float: right; }
 #instructions h1 a { width: 100%; height: 100%; display: block; }
 #instructions h1 em { position: absolute; left: -9999px; }
 #address { margin-bottom: 1em; }
@@ -38,10 +38,16 @@ li.hide { list-style-type: none; }
 #instructions p.bin { font-size: 80%; }
 #bin { float: left; padding-right: 1em; padding-bottom: 2em; }
 #instructions h6 {  }
-#instructions img { padding-top: 1em; padding-bottom: 1em; }
+#instructions img { padding-top: 1em; padding-bottom: 1em; display: block;}
 #instructions dl.aer { float: left; margin-right: 1em; }
 #instructions dl.aer dt, #instructions dl.aer dd {  }
 #instructions dl.aer dd, #instructions dl.aer_fig dd { color: black; font-size: 105%; font-weight: bold; margin-left: 0; }
 #instructions dl.aer img, #instructions dl.aer_fig img { padding-top: 0; padding-bottom: 0; border: solid 1px silver; }
 #instructions div.copy span.sq   { color: inherit; font-size: 7px; vertical-align: super; }
 table caption { font-weight: bold; text-align: left; }
+
+img#BN_Thermic_Logo {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
