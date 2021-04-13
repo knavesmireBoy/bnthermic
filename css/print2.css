@@ -1,0 +1,42 @@
+ background-color: aqua; margin-top: 0; margin-bottom: 0;   background-color: fuchsia; margin-top: 0; margin-bottom: 0;  #uberdiv { width: auto; float: left; margin: 0 auto; padding: 0; }
+body      { font-size: 9pt; font-family: "FrnkGothITC Bk BT"; text-align: center; margin: 0 auto; padding: 0; }
+table { color: black; font-size: 9pt; border: solid 1pt; }
+table caption { font-size: 12pt; text-align: left; }
+a { text-decoration: none; }
+ol li ul { list-style-type: none; }
+ul { list-style-type: disc; margin: 1em 0 1em 1.5em; padding: 0; }
+#header, #footer, #sidenav, #container { display: none; }
+#content { width: auto !important; float: left; margin: 0; padding: 1em; }
+#content .copy { width: 70%; }
+#content .graphics { float: left; margin-left: 0; }
+#content table caption p { color: #c00; font-weight: normal; line-height: 1.25; text-align: left; }
+#content td, #content th  { color: black; border-color: black; border-width: 1pt; }
+#content ul li { background-image: none; margin: 0; padding: 0; }
+#instructions { font-size: 100%; width: 100%; margin-top: 0; margin-bottom: 0; border-width: 0; }
+#record { width: auto; }
+#instructions h6 { background-image: none; display: none; }
+#instructions h3 { color: black; margin-top: 12pt; margin-right: 0; margin-bottom: 6pt; }
+#instructions h4 { color: black; font-size: 120%; }
+#instructions div+p  /* disclaimer */ { font-size: 80%; }
+#instructions h1 em { color: #c2c2c2; background-color: #e2e2e2; text-align: left; top: 0; left: 0; padding: 1mm; display: none; }
+#address { font-size: 85%; }
+#instructions div#record { font-size: 100%; line-height: 1; text-align: center; margin: 0; border-width: 0; page-break-before: always           }
+#instructions div#record h3 { margin: 0; }
+#instructions #record h4 { font-size: 100%; }
+#lh_ins div#instructions div#record div#lh_mod table { font-size: 90%; }
+.split { page-break-before: always }
+#eck_ins .split { page-break-before: always             }
+#instructions div.es { margin-top: 5em; }
+#instructions div.es h3 { font-size: 300%; text-align: center; }
+#instructions div.es h4 { font-size: 200%; font-weight: normal; text-align: center; margin-bottom: 3em; }
+#lh1b  /* LH Instructions - lh_layer diagram */ { padding-right: 36px; }
+#instructions p.lh_layer  /* LH Instructions - lh_layer diagram para */ { font-size: 100%; width: 340px; }
+#lh_ins #instructions, #eck_ins #instructions { font-size: 125%; }
+#eck_ins #instructions #record h4 { font-size: 88%; }
+#instructions p.disclaimer { font-size: 85%; line-height: 98%; margin-right: auto; margin-left: auto; }
+#eck_ins #instructions p.disclaimer { font-size: 74%; }
+#lh_ins #instructions a { color: black; }
+#lh_ins #lh_img p#junction { bottom: 2%; }
+#lh_ins #instructions a#record_form { display: none; }
+body#lh_ins div.imgbox { font-size: 95%; }
+body#eck_ins #record table th { font-size: 90%; border: solid 0 white; }

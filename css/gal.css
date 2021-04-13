@@ -1,0 +1,18 @@
+#intro { line-height: 1.5; text-align: left; position: relative; width: 360px; float: left; margin-bottom: -200px; padding: 20px 36px 440px 50px; display: inline; }
+#intro h3 { color: #c00; font-size: 130%; margin-bottom: 0.7em; }
+#intro p { font-weight: normal; }
+#intro ul { padding-top: 0.5em; padding-right: 0; padding-bottom: 0.5em; list-style-type: none; }
+#intro li { color: #0c4401; margin-bottom: 0.5em; }
+#intro h5 { font-size: 110%; background-image: none; float: none; margin-top: 0.2em; margin-bottom: 0.5em; padding: 0; border-bottom: 1px solid #89c253; }
+#intro .mouse a { color: #bbcbb2; font-weight: bold; text-decoration: none; padding-top: 1em; display: block; }
+#intro .mouse a:hover { color: #89c253; }
+#container  /* default div for galleries */ { width: 192px; float: right; }
+#container a.gallery span { background-image: none; position:absolute; width:1px; height:1px; top:0; left:0; overflow:hidden; }
+#container a.gallery:hover span.control { position: absolute; top: 80px; left: 200px; width: 492px; height: auto; }
+#container a.gallery:hover span { background-color: #fff; position:absolute; width:380px; height:auto; top:20px; left:45px; background-image: none; clear: both; }
+#container a.gallery:hover span.control img { float: left; }
+#container a.gallery:hover img { margin: 0 10px 5px 0; border-style: solid; border-width: 1px; }
+#container a.gallery h2 { color: #c00; font-weight: bold; margin-bottom: 3px; }
+#container a.gallery h5 { color: #c0c0c0; }
+#container a.gallery p { font-weight: bold; text-align: left; }
+#content { width: 100%; padding: 0; }

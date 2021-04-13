@@ -1,0 +1,51 @@
+body      { font-size: 9pt; font-family: "FrnkGothITC Bk BT"; width: auto !important; margin: 2%; padding: 0; }
+#uberdiv { width: auto !important; float: left; margin: 0 auto; padding: 0; }
+#header, #footer, #sidenav, #container { display: none; }
+#content { width: auto !important; float: left; margin: 0; padding: 1em; }
+#content .copy { width: 70%; }
+#content .graphics { float: left; margin-left: 0; }
+
+
+table { color: black; font-size: 9pt; border: solid 1pt #000; }
+#content table caption p { color: #c00; font-weight: normal; line-height: 1.25; text-align: left; }
+table caption { font-size: 12pt; text-align: left; }
+#content td, #content th  { color: black; border-color: black; border-width: 1pt; }
+a { text-decoration: none; }
+ol li ul { list-style-type: none; }
+ul { list-style-type: disc; margin: 1em 0 1em 1.5em; padding: 0; }
+#instructions h6 { background-image: none; display: none; }
+#content ul li { background-image: none; margin: 0; padding: 0; }
+#instructions { font-size: 100%;  width: auto; margin: 0; padding: 0; border-width: 0; }
+#instructions h3 { color: black; margin-top: 12pt; margin-right: 0; margin-bottom: 6pt; }
+#instructions h4 { color: black; }
+#instructions h1 em { color: #c2c2c2; background-color: #e2e2e2; text-align: left; top: 0; left: 0; padding: 1mm; display: none; }
+#address { font-size: 85%; }
+#instructions div#record { font-size: 80%; line-height: 100%; text-align: center; width: 94%; margin: 0.5em auto; padding: 2%; border-style: solid; border-width: 0; page-break-before: always      }
+#instructions #record h4 { font-size: 100%; }
+#instructions div#record p { font-weight: bold; margin-top: 10pt; margin-bottom: 10pt; padding: 5pt 0; }
+#instructions #record p span { margin-top: 0; margin-bottom: 0; padding: 4.5pt 4pt 4pt; }
+#instructions div#record p.address { margin: 0; border-bottom-width: 0; }
+#instructions div#record p.white, #instructions div#record p.whiter { color: white; margin: 0; border-left-width: 0; border-bottom-width: 0; border-top-width: 0; border-right-color: black; border-right-width: 1pt; }
+#instructions div#record p.white { border-bottom-color: black; border-bottom-width: 1pt; }
+#instructions div#record table { margin-top: 0.5em; margin-bottom: 0; border-width: 0; }
+#instructions div#record td { width: 48%; border-style: solid; border-width: 1pt; }
+#instructions div#record td p { font-size: 80%; margin: 0; padding: 0; border-width: 0; }
+#instructions div#record td.noborder { border-width: 0; }
+
+#instructions p.disclaimer { font-size: 75%; margin-right: auto; margin-left: auto; }
+#instructions { font-size: 135%; font-family: "FrnkGothITC Bk BT";}
+#instructions table td, #instructions table th { font-size: 125%; }
+#instructions div#record { margin: 0; }
+.split { page-break-before: always }
+#instructions div.es { margin-top: 5em; }
+#instructions div.es h3 { font-size: 300%; text-align: center; }
+#instructions div.es h4 { font-size: 200%; font-weight: normal; text-align: center; margin-bottom: 3em; }
+#lh1b  /* LH Instructions - lh_layer diagram */ { padding-right: 36px; }
+#instructions p.lh_layer  /* LH Instructions - lh_layer diagram para */ { font-size: 100%; width: 340px; }
+#lh_ins #instructions { font-size: 100%; }
+#instructions div#record div#lh_mod table { font-size: 80%; width: 50%; float: none; margin-top: -1em; margin-left: 50%; border-style: solid; border-width: 1pt; }
+#instructions div#record div#lh_mod {  }
+#instructions div#record p.nobox { padding-left: 5pt; }
+#instructions div#record p.box { margin-left: 5pt; }
+#lh_ins #instructions a { color: black; }
+#lh_ins #instructions a#record_form { display: none; }

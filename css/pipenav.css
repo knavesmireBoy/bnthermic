@@ -1,0 +1,5 @@
+
+#container a.slidea { background-image: url(../thumbnails/nav/p.duo/ccsrj_.jpg); background-repeat: no-repeat; height:98px; width:66px; }
+#container a.slidea:hover, #container dl.current a.slidea { background-image: url(../thumbnails/nav/p/ccsrj_.jpg); }
+#container a.slideb { background-image: url(../thumbnails/nav/p.duo/pge_.jpg); background-repeat: no-repeat; height:98px; width:66px; }
+#container a.slideb:hover, #container dl.current a.slideb { background-image: url(../thumbnails/nav/p/pge_.jpg); }

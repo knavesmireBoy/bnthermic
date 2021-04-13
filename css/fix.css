@@ -1,0 +1,11 @@
+th.topleft span.topright { background-image: url(../images/th2.gif); background-repeat: no-repeat; margin-top: -0.4em; margin-right: -0.3em; padding-top: 0.4em; display: block; }
+.gutter  { padding: 10px   }
+#twocol { width: 100%; overflow: hidden; float: left; margin-top: 1em; margin-bottom: 1em; }
+.spot  { line-height: 1.6; width: 40%; float: right; margin-bottom: -10em; margin-left: 2%; padding: 1em 3% 10em; display: inline; }
+.spot h4 { color: #b00012; text-align: center; margin-top: 0; margin-right: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-left: 0; }
+.left { float: left; }
+.right { width: 230px; }
+.clear { float: left; }
+#twocol table.left { width: 52%; margin: 0; }
+table caption { font-size: 120%; font-weight: bold; text-align: left; }
+table caption p { color: #c4000b; font-size: 80%; font-weight: normal; line-height: 1; text-align: left; letter-spacing: -0.1em; }

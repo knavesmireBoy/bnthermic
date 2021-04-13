@@ -1,0 +1,4 @@
+<dl class="lh1c">
+							<dt><img id="lh1c" src="lh1c.gif" alt="lh1c" name="lh1c" width="150" height="110"/></dt>
+							<dd>The finished connection completely covered with protective, hardwearing, moisture resistant plastic casing</dd>
+						</dl>

@@ -1,0 +1,23 @@
+#container a.slidea { background-image: url(../thumbnails/nav/l.duo/ep.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slidea:hover, #container dl.current a.slidea { background-image: url(../thumbnails/nav/l/ep.jpg); }
+#container a.slideb { background-image: url(../thumbnails/nav/l.duo/th.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slideb:hover, #container dl.current a.slideb { background-image: url(../thumbnails/nav/l/th.jpg); }
+#container a.slidec { background-image: url(../thumbnails/nav/l.duo/blc.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slidec:hover, #container dl.current a.slidec { background-image: url(../thumbnails/nav/p/blc.jpg); }
+#container a.slided { background-image: url(../thumbnails/nav/l.duo/bls.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slided:hover, #container dl.current a.slided { background-image: url(../thumbnails/nav/l/bls.jpg); }
+#container a.slidee { background-image: url(../thumbnails/nav/l.duo/hdb.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slidee:hover, #container dl.current a.slidee { background-image: url(../thumbnails/nav/l/hdb.jpg); }
+#container a.slidef { background-image: url(../thumbnails/nav/l.duo/odi.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidef:hover, #container dl.current a.slidef { background-image: url(../thumbnails/nav/l/odi.jpg); }
+#container a.slideg { background-image: url(../thumbnails/nav/l.duo/600_tubular.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slideg:hover, #container dl.current a.slideg { background-image: url(../thumbnails/nav/l/600_tubular.jpg); }
+#container a.slideh { background-image: url(../thumbnails/nav/l.duo/swd-a.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slideh:hover, #container dl.current a.slideh { background-image: url(../thumbnails/nav/l/swd-a.jpg); }
+#container a.slidei { background-image: url(../thumbnails/nav/l.duo/xb.jpg); background-repeat: no-repeat; background-position: 0 0; height:103px; width:66px; }
+#container a.slidei:hover, #container dl.current a.slidei { background-image: url(../thumbnails/nav/l/xb.jpg); }
+#container a.slidej { background-image: url(../thumbnails/nav/l.duo/bnex.jpg); background-repeat: no-repeat; background-position: 0 0; height:42px; width:66px; }
+#container a.slidej:hover, #container dl.current a.slidej { background-image: url(../thumbnails/nav/l/bnex.jpg); }
+#container a.slidek { background-image: url(../thumbnails/nav/l.duo/cf1.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidek:hover, #container dl.current a.slidek { background-image: url(../thumbnails/nav/l/cf1.jpg); }
+.xb { float: left; margin-left: 1em; }

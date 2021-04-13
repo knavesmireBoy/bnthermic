@@ -1,0 +1,26 @@
+#container a.slidea { background-image: url(../thumbnails/controls/rst-in.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slideb { background-image: url(../thumbnails/controls/rst-ex.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidec { background-image: url(../thumbnails/controls/fst-in.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slided { background-image: url(../thumbnails/controls/fst-ex.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:122px; }
+#container a.slidee { background-image: url(../thumbnails/controls/h16c.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidef { background-image: url(../thumbnails/controls/mc-16.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slideg { background-image: url(../thumbnails/controls/wh-402.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slideh { background-image: url(../thumbnails/controls/vr-1.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidei { background-image: url(../thumbnails/controls/bnex-1.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidej { background-image: url(../images/thyristor-comp.gif); background-repeat: no-repeat; background-position: 50% 50%; height:182px; width:186px; }
+#container a.slidek { background-image: url(../thumbnails/controls/sch-c.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidel { background-color: transparent; background-image: url(../thumbnails/controls/sim351r.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container a.slidem { background-color: transparent; background-image: url(../thumbnails/controls/black_bulb_sensor.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:58px; }
+#container dl.thy { float: left; }
+#container dl.thy dd { display: block; }
+#container dl.bulb dd { line-height: 1.4; max-width: 58px; }
+#control{ width: 616px; float: left; margin-right: 5px; margin-left: 5px; padding: 10px 5px; border: solid 1px #c0c0c0; display: inline; }
+#control table{ line-height: 120%; text-align: left; width: 420px; float: right; border-collapse:collapse; }
+#control td { background-color: transparent; text-align: left; vertical-align: top; border-bottom-color: #808080; }
+#control td em  { color: #d00; font-style: normal; font-weight: bold; display: block; padding-left: 0.1em; width: 143px    }
+#control th  { color: black; font-size: 135%; background-color: #a8b4d5; background-image: none; text-align: left; }
+#control tr { background-color: white; }
+#control img { width: 180px; float: left; margin: 0 6px 0 0; }
+.green { color: #d00; background-color: white; }
+#content { width: 100%; }
+#control h6 { background-image: url(../images/pdf.gif); }

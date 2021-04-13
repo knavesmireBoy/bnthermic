@@ -1,0 +1,37 @@
+body      { font-size: 8pt; font-family: FranklinGothic-Book; width: 100%; }
+#uberdiv { width: 96%; float: left; display: inline; }
+#header, #footer, #sidenav, #container { display: none; }
+#content { width: 98%; float: left; margin: 0; padding: 4em 1%; }
+#content .copy { width: 70%; float: left; margin: 0 0 0 2%; padding: 0; }
+#content .graphics { float: left; margin: 0; padding: 0; border: solid 0 red; }
+
+#content table { color: black; font-size: 8pt; }
+#content table caption p { color: #c00; font-weight: normal; line-height: 1.25; text-align: left; }
+table caption { font-weight: bold; text-align: left; }
+#content td, #content th  { color: black; border: solid 1pt #bbb; }
+a { text-decoration: none; }
+#content ul { list-style-type: disc; margin: 1em 0 1em 2em; padding: 0; border-style: dotted; border-width: 0; }
+#content ul li { background-image: none; margin: 0; padding: 0; }
+#i3 { float: right; margin-bottom: 2em; margin-left: 70%; }
+em { font-weight: bold; }
+#instructions { font-size: 155%; background-color: yellow; }
+#instructions h3 { color: black; font-family: FranklinGothic-Heavy; margin-top: 12pt; margin-right: 0; margin-bottom: 6pt; }
+#instructions h4 { color: black; font-family: FranklinGothic-Demi; }
+#content h6 { background-image: none; display: none; }
+#instructions h1 em { color: #c2c2c2; background-color: #e2e2e2; text-align: left; top: 0; left: 0; padding: 1mm; display: none; }
+#instructions div#record p { font-weight: bold; margin-top: 0.4em; margin-bottom: 0; padding-top: 2pt; padding-bottom: 2pt; border-style: solid; border-width: 1pt 1pt 1pt 0; }
+#instructions div#record p.address { border-bottom-color: white; }
+#instructions #record p span { background-color: white; margin-top: 0; margin-bottom: 0; padding: 3pt 3pt 4pt; border-right: 1pt solid black;border-top-style; border-bottom-width: 0; border-left-width: 0; border-top-width: 0; }
+#instructions div#record p.dims { padding: 0; border-width: 0; }
+#instructions #record h4 { font-size: 100%; }
+#instructions div#record p.dims span { width: 40%; display: block; }
+#instructions div#record { font-size: 65%; text-align: center; width: 94%; margin: 1em auto; padding: 2%; border-style: solid; border-width: 0; page-break-before: always   }
+#address { font-size: 80%; }
+#instructions div#record p.white, #instructions div#record p.whiter { color: white; margin: 0; border-right: 1px solid black; }
+#instructions div#record p.white { border-right: 1px solid black; border-bottom-color: black; }
+#instructions div#record table { margin-top: 0.5em; margin-bottom: 0; border-width: 0; }
+#instructions div#record td { width: 50%; border-style: solid; border-width: 1pt; }
+#instructions div#record td p { margin: 0; padding: 0; border-width: 0; }
+#instructions div#record td.noborder { border-width: 0; }
+#instructions div#record p, #instructions div#record h3, #instructions div#record h4 { margin-left: 0; }
+#instructions p.disclaimer { font-size: 70%; margin-right: auto; margin-left: auto; }

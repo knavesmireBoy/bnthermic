@@ -1,0 +1,28 @@
+#uberdiv { text-align: center; width: 846px; margin: 4em auto 0 auto; border: solid 1px #b3b3b3; }
+#header  { background-color: #a8b4d5; background-image: url(../images/bn2.gif); background-repeat: no-repeat; background-position: left top; height: 60px; }
+#header h1 em { position: absolute; left: -1111px; }
+#header h2 { color: #16006b; font-size: 140%; font-weight: bold; float: left; margin-left: 180px; padding-top: 20px; display: inline; }
+#header h2 em { color: #f81a17; }
+#header ul { font-size: 90%; font-weight: bold; float: right; margin-top: 1em; margin-right: 10em; display: inline; }
+#sidenav { font-size: 90%; font-weight: bold; background-color: #a8b4d5; background-image: url(../images/bn2.gif); background-position: 0 -60px; width: 846px; height: auto; overflow: hidden; margin-bottom: 2em; }
+#sidenav ul { width: auto; float: left; text-transform: lowercase;}
+#sidenav ul li { background-repeat: no-repeat; text-align: left; float: left; margin-bottom: -34px; border-width: 0; }
+#sidenav a, #sidenav a:visited { color: black; background-color: #a8b4d5; background-image: url(../images/pixie.gif); background-repeat: no-repeat; text-decoration: none; float: left; max-width: 94px; padding: 6px 10px 40px; }
+#sidenav a:hover, #sidenav a:active { color: #fff; background-color: #63a0ff; }
+#t-fan, #t-conv, #t-pipe, .max  /* in lieu of min-width in ie */ { width: 94px; }
+#container { width: 144px; float: left; margin: 0 5px 2em; padding: 2px; border: solid 1px #b7c2dd; display: inline; position: relative;}
+#container dl  { float: left; list-style-type:none; margin: 2px; display: inline; }
+#container dl.floatright { float: right; }
+
+#container dd  /* default style for gallery captions */ { font-size: 9px; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; text-align: center; height: auto; padding: 1px 0 0; }
+
+#content        /* rel pos for gallery  */ { text-align: left; position: relative; width: 670px; float: left; padding-right: 10px; padding-bottom: 2em; padding-left: 0; }
+#content .graphics         { width: 180px; float: left; margin-right: 10px; margin-left: 10px; display: inline; }
+#content .copy { width: 466px; float: left; }
+* html #content .copy { height: 1%; }
+* html #news p  /* give layout to ie */ { height: 1%; }
+#footer     { background-color: #a5b4d7; position: relative; clear: both;}
+
+#container .microthumb p  /* default style for gallery captions */ { 
+font-size: 9px; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; 
+text-align: center; height: auto; padding: 2px 0 2px; }

@@ -1,0 +1,7 @@
+
+#container a.slidea { background-image: url(../thumbnails/nav/l.duo/eck_underfloor.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidea:hover, #container dl.current a.slidea { background-image: url(../thumbnails/nav/l/eck_underfloor.jpg); background-repeat: no-repeat; }
+#container a.slideb { background-image: url(../thumbnails/nav/p.duo/ehn_underfloor.jpg); background-repeat: no-repeat; height:103px; width:66px; }
+#container a.slideb:hover, #container dl.current a.slideb { background-image: url(../thumbnails/nav/p/ehn_underfloor.jpg); background-repeat: no-repeat; }
+#container a.slidec { background-image: url(../thumbnails/nav/l.duo/lh_underfloor.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidec:hover, #container dl.current a.slidec { background-image: url(../thumbnails/nav/l/lh_underfloor.jpg); background-repeat: no-repeat; }

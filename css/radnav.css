@@ -1,0 +1,29 @@
+
+#container a.slidea { background-image: url(../thumbnails/nav/l.duo/h-1500r.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidea:hover, #container dl.current a.slidea { background-image: url(../thumbnails/nav/l/h-1500r.jpg); }
+#container a.slideb { background-image: url(../thumbnails/nav/l.duo/h-3000r.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slideb:hover, #container dl.current a.slideb { background-image: url(../thumbnails/nav/l/h-3000r.jpg); }
+#container a.slidec { background-image: url(../thumbnails/nav/p.duo/h-4500r.jpg); background-repeat: no-repeat; height:103px; width:66px; }
+#container a.slidec:hover, #container dl.current a.slidec { background-image: url(../thumbnails/nav/p/h-4500r.jpg); }
+#container a.slided { background-image: url(../thumbnails/nav/l.duo/ch-1500.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slided:hover, #container dl.current a.slided { background-image: url(../thumbnails/nav/l/ch-1500.jpg); }
+#container a.slidee { background-image: url(../thumbnails/nav/l.duo/ch-3000.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidee:hover, #container dl.current a.slidee { background-image: url(../thumbnails/nav/l/ch-3000.jpg); }
+#container a.slidef { background-image: url(../thumbnails/nav/l.duo/hwp-1800.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidef:hover, #container dl.current a.slidef { background-image: url(../thumbnails/nav/l/hwp-1800.jpg); }
+#container a.slideg { background-image: url(../thumbnails/nav/l.duo/hwp-3600-oh.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slideg:hover, #container dl.current a.slideg { background-image: url(../thumbnails/nav/l/hwp-3600-oh.jpg); }
+#container a.slideh { background-image: url(../thumbnails/nav/p.duo/hwp-3600-fm_full.jpg); background-repeat: no-repeat; height:103px; width:66px; }
+#container a.slideh:hover, #container dl.current a.slideh { background-image: url(../thumbnails/nav/p/hwp-3600-fm_full.jpg); }
+#container a.slidei { background-image: url(../thumbnails/nav/p.duo/ttp.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidei:hover, #container dl.current a.slidei { background-image: url(../thumbnails/nav/p/ttp.jpg); }
+#container a.slidei2 { background-image: url(../thumbnails/nav/p.duo/tts.jpg); background-repeat: no-repeat;  height:42px; width:66px; }
+#container a.slidei2:hover, #container dl.current a.slidei2 { background-image: url(../thumbnails/nav/p/tts.jpg); }
+#container a.slidei3 { background-image: url(../thumbnails/nav/p.duo/tvh.jpg); background-repeat: no-repeat;  height:42px; width:66px; }
+#container a.slidei3:hover, #container dl.current a.slidei3 { background-image: url(../thumbnails/nav/p/tvh.jpg); }
+#container a.slidej { background-image: url(../thumbnails/nav/l.duo/HT1500.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidej:hover, #container dl.current a.slidej { background-image: url(../thumbnails/nav/p/HT1500ani.gif); }
+#container a.slidek { background-image: url(../thumbnails/nav/l.duo/rp-03.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidek:hover, #container dl.current a.slidek { background-image: url(../thumbnails/nav/l/rp-03.jpg); }
+#container a.slidel { background-image: url(../thumbnails/nav/l.duo/hp-3000.jpg); background-repeat: no-repeat; height:42px; width:66px; }
+#container a.slidel:hover, #container dl.current a.slidel { background-image: url(../thumbnails/nav/l/hp-3000.jpg); }

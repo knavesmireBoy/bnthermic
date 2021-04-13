@@ -1,0 +1,47 @@
+a { text-decoration: underline; }
+#instructions { text-align: center; position: relative; width: 700px; float: none; margin: 1em auto; border: solid 1px #b3b3b3; }
+#instructions ul { line-height: 1.1; text-align: left; margin-bottom: 1em; padding-left: 2em; }
+#instructions ul li { background-image: url(../images/dbl.gif); }
+.copy { padding: 0 12px 1em; }
+#instructions .copy p { text-align: left; margin-bottom: 0.5em; }
+#instructions h3 { color: #039; text-align: left; }
+#instructions h4 { color: #cc0000; text-align: left; margin-top: 0.5em; }
+#instructions h5 { color: #4c4c4c; font-size: 120%; line-height: 2; text-align: left; }
+#instructions h6 { background-image: url(../images/pdf.gif); background-repeat: no-repeat; text-align: left; float: none; display: block; }
+#instructions p em, #instructions p strong { font-weight: bold; }
+#instructions p#prodcode { font-size: 90%; position: absolute; top: 2px; right: 2px; z-index: 2; padding: 1px; border: solid 1px gray; }
+.clear, .split { clear: both; }
+#instructions h1 { position: absolute; top: 0; right: 0; width: 233px; z-index: 1; margin-bottom: 1em; }
+#instructions h1 a { width: 100%; height: 100%; display: block; }
+#instructions h1 em { position: absolute; left: -9999px; }
+#address { margin-bottom: 1em; }
+#instructions table { width: auto; float: left; margin-top: 1em; margin-bottom: 1em; border-top-color: black; border-left-color: black; }
+#instructions table.res { margin-top: 0; margin-right: 1em; }
+#instructions td, #instructions th { color: black; background-image: none; border-right-color: black; border-bottom-color: black; }
+#instructions tr { background-color: white; }
+#instructions table em { font-weight: bold; font-style: normal; text-align: center; }
+#instructions td span { text-align: left; display: block; }
+#symbol { vertical-align: text-top; margin: -0.1em 0 0; }
+li.hide { list-style-type: none; }
+#instructions p.tight { margin: 0; }
+#instructions table.white { text-align: left; border-color: white; }
+#instructions table.white td, #instructions table.white th { border-color: white; }
+#instructions dl { text-align: left; margin-top: 1em; margin-bottom: 1em; }
+#instructions dl.lh1c { width: 160px; float: right; margin-top: 1em; margin-bottom: 1em; margin-left: 1em; border-style: solid; border-width: 1px; }
+#instructions dl.lh1c dt img { padding: 1px; }
+#instructions dl.lh1c dd { padding: 0.5em; color: white; font-weight: bold; background-color: silver; margin-left: 0; border-width: 0; }
+#instructions dt { font-weight: bold; }
+#instructions dd { margin-left: 10em; }
+#instructions ol.floor li { background-image: none; padding: 0; }
+#instructions ol.floor li ul { margin-top: 0.5em; padding-left: 0; }
+#instructions ol.floor li ol { margin: 0 0 0 2em; }
+#instructions p.bin { font-size: 80%; }
+#bin { float: left; padding-right: 1em; padding-bottom: 2em; }
+#instructions h6 {  }
+#instructions img { padding-top: 1em; padding-bottom: 1em; }
+#instructions dl.aer { float: left; margin-right: 1em; }
+#instructions dl.aer dt, #instructions dl.aer dd {  }
+#instructions dl.aer dd, #instructions dl.aer_fig dd { color: black; font-size: 105%; font-weight: bold; margin-left: 0; }
+#instructions dl.aer img, #instructions dl.aer_fig img { padding-top: 0; padding-bottom: 0; border: solid 1px silver; }
+#instructions div.copy span.sq   { color: inherit; font-size: 7px; vertical-align: super; }
+table caption { font-weight: bold; text-align: left; }

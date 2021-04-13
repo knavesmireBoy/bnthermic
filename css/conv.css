@@ -1,0 +1,12 @@
+#container a.slidea { background-image: url(../thumbnails/landscape/ep.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:90px; }
+#container a.slideb { background-image: url(../thumbnails/landscape/th.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:90px; }
+#container a.slidec { background-image: url(../thumbnails/portrait/blc.jpg); background-repeat: no-repeat; background-position: 0 0; height:58px; width:90px; }
+#container a.slided { background-image: url(../thumbnails/landscape/bls.jpg); background-repeat: no-repeat; height:58px; width:90px; }
+#container a.slidee { background-image: url(../thumbnails/landscape/hdb.jpg); background-position: 0 0; height:58px; width:90px; }
+#container a.slidef { background-image: url(../thumbnails/landscape/odi.jpg); height:58px; width:90px; }
+#container a.slideg { background-image: url(../thumbnails/landscape/600_tubular.jpg); background-position: 0 0; height:58px; width:90px; }
+#container a.slideh { background-image: url(../thumbnails/landscape/swd-a.jpg); background-position: 0 0; height:58px; width:90px; }
+#container a.slidei { background-image: url(../thumbnails/landscape/xb.jpg); background-position: 0 0; height:135px; width:90px; }
+#container a.slidej { background-image: url(../thumbnails/landscape/bnex.jpg); background-position: 0 0; height:58px; width:90px; }
+#container a.slidek { background-image: url(../thumbnails/landscape/cf1.jpg); height:58px; width:90px; }
+.xb { float: left; margin-left: 1em; }
