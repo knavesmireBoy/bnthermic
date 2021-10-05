@@ -45,11 +45,11 @@ content="text/html;charset=iso-8859-1"/>
            	overflow: hidden;
            }
            #exit:hover, #exit:focus {
-           	background-color: red;
+           	background-color: darkblue;
            }
            #cv {
-           	background-color: darkblue;
-           	background-color: rgba(0, 0, 100, .9);
+           	background-color: #c00;
+           	background-color: rgba(204, 0, 0, .9);
            	position: absolute;
            	padding: 2em;
            	z-index: 4;
@@ -65,6 +65,7 @@ content="text/html;charset=iso-8859-1"/>
            	text-shadow: none;
            	position: relative;
            	z-index: 1;
+               font: 1.2em Georgia, serif;
            }
            #cv p:after {
            	content: none;
@@ -143,38 +144,36 @@ href="mailto:sales@bnthermic.co.uk">sales@bnthermic.co.uk</a></dd>
 		</div>
         <script>
         function getUrlParameter(sParam) {
-		var sPageURL = window.location.search.substring(1),
-			sURLVariables = sPageURL.split('&'),
-			sParameterName,
-			i;
-		for (i = 0; i < sURLVariables.length; i++) {
-			sParameterName = sURLVariables[i].split('=');
-            console.log(sPageURL)
-			if (sParameterName[0] == sParam) {
-				return typeof sParameterName[1] === 'undefined' ? true : decodeURIComponent(sParameterName[1]);
-			}
+	var sPageURL = window.location.search.substring(1),
+		sURLVariables = sPageURL.split('&'),
+		sParameterName,
+		i;
+	for (i = 0; i < sURLVariables.length; i++) {
+		sParameterName = sURLVariables[i].split('=');
+		console.log(sPageURL)
+		if (sParameterName[0] == sParam) {
+			return typeof sParameterName[1] === 'undefined' ? true : decodeURIComponent(sParameterName[1]);
 		}
-		return false;
 	}
-            var urlParams = window.URLSearchParams ? new window.URLSearchParams(window.location.search) : {};
-        urlParams.has === urlParams.has || getUrlParameter;
-            
-            	if (urlParams.has('cv')) {
-                    var uber = document.getElementById('uberdiv'),
-                        anc = document.getElementById('header'),
-                        div = document.createElement('div'),
-                        exit = document.createElement('a'),
-                        para = document.createElement('p');
-                    uber.insertBefore(div, anc);
-                    div.appendChild(exit);
-                    div.appendChild(para);
-                    div.setAttribute('id', 'cv');
-                    exit.setAttribute('href', '.');
-                    exit.setAttribute('id', 'exit');
-                    exit.innerHTML = 'close';
-                    para.innerHTML = 'The assocation with <a href="https://www.bnthermic.co.uk/" target="_blank">BN Thermic</a>, formerly Bush Nelson, went back to the very early days of North Wolds. They had great ambitions to integrate their website with their CRM, but back in early 2006 the most pressing concern was getting all of their content out of Quark files and on to their web site and I was tasked with this endeavour. <a href="https://www.amazon.co.uk/Bulletproof-Web-Design-flexibility-protecting/dp/0321346939/ref=sr_1_9?dchild=1&keywords=bulletproof+css&qid=1633424010&s=books&sr=1-9" target="_blank">Bulletproof Web Design</a> by Dan Cederholm proved an invaluable helper as a deep dive into CSS was required. Javascript enhancements had to wait until later that year when it was handed over to <a href ="https://sq.gg/" target="_blank">Squeegee Design</a> who had created a custom CMS for another of our print clients and would prove a good fit for this project. This is what the original version looked like in the summer of 2006 and the design held good for a number of years.';
-                }
-            
+	return false;
+}
+var urlParams = window.URLSearchParams ? new window.URLSearchParams(window.location.search) : {};
+urlParams.has === urlParams.has || getUrlParameter;
+if (urlParams.has('cv')) {
+	var uber = document.getElementById('uberdiv'),
+		anc = document.getElementById('header'),
+		div = document.createElement('div'),
+		exit = document.createElement('a'),
+		para = document.createElement('p');
+	uber.insertBefore(div, anc);
+	div.appendChild(exit);
+	div.appendChild(para);
+	div.setAttribute('id', 'cv');
+	exit.setAttribute('href', '.');
+	exit.setAttribute('id', 'exit');
+	exit.innerHTML = 'close';
+	para.innerHTML = 'The assocation with <a href="https://www.bnthermic.co.uk/" target="_blank">BN Thermic</a>, formerly Bush Nelson, went back to the very early days of North Wolds. They had great ambitions to integrate their website with their CRM, but back in early 2006 the most pressing concern was getting all of their content out of Quark files and on to their web site and I was tasked with this endeavour. <a href="https://www.amazon.co.uk/Bulletproof-Web-Design-flexibility-protecting/dp/0321346939/ref=sr_1_9?dchild=1&keywords=bulletproof+css&qid=1633424010&s=books&sr=1-9" target="_blank">Bulletproof Web Design</a> by Dan Cederholm proved an invaluable helper as a deep dive into CSS was required. Javascript enhancements had to wait until later that year when it was handed over to <a href ="https://sq.gg/" target="_blank">Squeegee Design</a> who had created a custom CMS for another of our print clients and would prove a good fit for this project. This is what the original version looked like in the summer of 2006 and the design held good for a number of years.';
+}
         </script>
 		
 	</body>
