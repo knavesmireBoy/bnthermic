@@ -164,15 +164,21 @@ if (urlParams.has('cv')) {
 		anc = document.getElementById('header'),
 		div = document.createElement('div'),
 		exit = document.createElement('a'),
-		para = document.createElement('p');
+		para = document.createElement('p'),
+		para2 = document.createElement('p'),
+		para3 = document.createElement('p');
 	uber.insertBefore(div, anc);
 	div.appendChild(exit);
 	div.appendChild(para);
+	div.appendChild(para2);
+	div.appendChild(para3);
 	div.setAttribute('id', 'cv');
 	exit.setAttribute('href', '.');
 	exit.setAttribute('id', 'exit');
 	exit.innerHTML = 'close';
-	para.innerHTML = "The assocation with <a href='https://www.bnthermic.co.uk/' target='_blank'>BN Thermic</a>, formerly Bush Nelson, went back to the very early days of North Wolds. They had great ambitions to integrate their website with their CRM, but back in early 2006 the most pressing concern was getting all of their content out of Quark files and on to their web site and I was tasked with this endeavour. <a href='https://www.amazon.co.uk/Bulletproof-Web-Design-flexibility-protecting/dp/0321346939/ref=sr_1_9?dchild=1&keywords=bulletproof+css&qid=1633424010&s=books&sr=1-9' target='_blank'>Bulletproof Web Design</a> by Dan Cederholm paved the way to enlightenment with regard to the separation of concerns best epitomised in the <a href='http://www.csszengarden.com' _target='blank'>csszengarden</a> project, very much part of the zeitgeist back then. Javascript enhancements had to wait until later that year when it was handed over to <a href ='https://sq.gg/' target='_blank'>Squeegee Design</a> who had created a custom CMS for another of our print clients and would prove a good fit for this project. This is what the original version looked like in the summer of 2006 and the design held good for a number of years.";
+	para.innerHTML = "The assocation with <a href='https://www.bnthermic.co.uk/' target='_blank'>BN Thermic</a>, formerly Bush Nelson, went back to the very early days of North Wolds. They had great ambitions to integrate their website with their CRM, but back in early 2006 the most pressing concern was getting all of their content out of Quark files and on to their web site and I was tasked with this endeavour.";
+	para2.innerHTML = "<a href='https://www.amazon.co.uk/Bulletproof-Web-Design-flexibility-protecting/dp/0321346939/ref=sr_1_9?dchild=1&keywords=bulletproof+css&qid=1633424010&s=books&sr=1-9' target='_blank'>Bulletproof Web Design</a> by Dan Cederholm paved the way to enlightenment with regard to the separation of concerns - structure, presentation - best epitomised in the <a href='http://www.csszengarden.com' _target='blank'>csszengarden</a> project, very much part of the zeitgeist back then."
+	para3.innerHTML ="The behaviour layer would have to to wait until later when it was handed over to <a href ='https://sq.gg/' target='_blank'>Squeegee Design</a> who had created a custom CMS for another of our print clients and would prove a good fit for this project. This is what the original version looked like in the summer of 2006 and the design held good for a number of years.";
 }
 </script>
 </body>
